@@ -1,5 +1,5 @@
 # short_put_scanner
-
+    <!-- FIXIT description>
     - These repo show how works rust coverage inside MS Vscode 
     using the expansion coverage-gutters
     - a rocky road  
@@ -45,7 +45,7 @@ $ uname -a
 Linux debian 6.1.0-28-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.119-1 (2024-11-22) x86_64 GNU/Linux
 ```
 
-## Create for your own project a project folder in the Linux console (terminal ,bash shell), e.g. in your your own home directory, and then open this folder as a new project in the MS VSCODE program
+## Create for your own project a project folder in the Linux console (terminal ,bash shell), e.g. in your own home directory, and then open this folder as a new project in the MS VSCODE program
 
 <!-- FIXIT add a variable for project name-->
 
@@ -53,6 +53,12 @@ Linux debian 6.1.0-28-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.119-1 (2024-11-22)
 # cd && mkdir <project_name folder> && cd $_
 # command 'cd' change to home folder from logged in user
 cd && mkdir rust-example-cov && cd $_ 
+```
+
+## Create your own project path file
+
+```bash <!-- markdownlint-disable-line code-block-style -->
+touch project_path.md
 ```
 <!-- -->
 >[!TIP]

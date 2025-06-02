@@ -47,6 +47,8 @@ Linux debian 6.1.0-28-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.119-1 (2024-11-22)
 
 ## Create for your own project a project folder in the Linux console (terminal ,bash shell), e.g. in your your own home directory, and then open this folder as a new project in the MS VSCODE program
 
+<!-- FIXIT add a variable for project name-->
+
 ```bash <!-- markdownlint-disable-line code-block-style -->
 # cd && mkdir <project_name folder> && cd $_
 # command 'cd' change to home folder from logged in user
@@ -75,8 +77,8 @@ touch README.md \
 && rustup show \
 && mkdir tests
 ```
-<!-- NEXT_TASK  copy link symbol from another repo via cmd line command-->
-<!-- NEXT_TASK create settings.json add copy cSpell.words to it>
+<!-- NEXT_TASK copy link symbol from another repo via cmd line command-->
+<!-- NEXT_TASK workspace_settings create settings.json add copy cSpell.words to it>
 <!-- -->
 >[!TIP]
 > How to cat ```<<EOF>>``` a file containing code
